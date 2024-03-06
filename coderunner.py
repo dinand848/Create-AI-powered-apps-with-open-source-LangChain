@@ -4,7 +4,7 @@ from langchain.agents import initialize_agent
 from langchain_openai import ChatOpenAI 
 from langchain_experimental.tools import PythonREPLTool
 from langchain_experimental.utilities import PythonREPL
-openai_api_key = "API KEY KAMU"
+openai_api_key = "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"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 gpt3 = ChatOpenAI(model_name='gpt-3.5-turbo')
 # Equipting the agent with some tools
